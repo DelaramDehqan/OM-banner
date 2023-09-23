@@ -126,6 +126,7 @@ h2 {
     font-size: 2rem;
     transform: translateY(-15%);
     height: 120%;
+    width: 50%;
   }
   h2 {
     font-size: 1rem;
@@ -135,12 +136,12 @@ h2 {
     font-size: 2rem;
   }
   .timer {
-    gap: 1%;
-    transform: translate(-38%, 110%);
+    gap: 2%;
+    transform: translate(-63%, 0%);
   }
   .num {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 10px;
   }
   .lef-corner {
@@ -157,14 +158,14 @@ h2 {
   .calender img {
     width: 90px;
     height: 85px;
-    transform: translate(100%, 110%);
+    transform: translate(160%, -30%);
   }
   .cal {
     font-size: 0.7rem;
-    transform: translate(760%, 720%);
+    transform: translate(550%, -250%);
   }
   .cal-date {
     font-size: 1.3rem;
-    transform: translate(780%, 400%);
+    transform: translate(780%, -50%);
   }
 }
