@@ -1,0 +1,48 @@
+<div class="container">
+  <img src="../assets/Bg.jpg" alt="bg" />
+
+  <div class="body">
+    <div class="calender">
+      <img src="../assets/calender.png" alt="calender" />
+      <p class="cal">{{ getcurrentMonth() }}</p>
+      <p class="cal cal-date">{{ getcurrentDate() }}</p>
+    </div>
+    <div class="timer">
+      <div class="hour">
+        <div class="num">
+          <span class="digit">{{ currentTime | date : "HH" }}</span>
+          <div class="lef-corner"></div>
+          <div class="middle-line"></div>
+          <div class="right-corner"></div>
+        </div>
+        <p class="subtitle">ساعت</p>
+      </div>
+      <span>:</span>
+      <div class="min">
+        <div class="num">
+          <span class="digit">{{ currentTime | date : "mm" }}</span>
+          <div class="lef-corner"></div>
+          <div class="middle-line"></div>
+          <div class="right-corner"></div>
+        </div>
+        <p class="subtitle">دقیقه</p>
+      </div>
+      <span>:</span>
+      <div class="sec">
+        <div class="num">
+          <span class="digit">{{ currentTime | date : "ss" }}</span>
+          <div class="lef-corner"></div>
+          <div class="middle-line"></div>
+          <div class="right-corner"></div>
+        </div>
+        <p class="subtitle">ثانیه</p>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="price-holder">
+      <p>1/300/000</p>
+    </div>
+    <h2>قیمت بتن (تومان)</h2>
+  </div>
+</div>
